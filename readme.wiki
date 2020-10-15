@@ -33,13 +33,13 @@ Currently, this repository only contains 4 languages and 1 custom wordlist of ho
 |[[.rcdl/ar_001.rydict|ar_001.rydict]]
 |<code>NULL</code>
 |-
-|Indonesia
+|Indonesian
 |id
 |Ryuuganime
 |Language
 |Natural
 |[[.rcdl/id_ID.rydict|id_ID.rydict]]
-|<code>NULL</code>
+|Provided by Ryuuganime.
 |-
 |Japanese
 |ja
@@ -69,13 +69,12 @@ We using plain text format (<code>.txt</code> and <a href="#About_rydict"><code>
 
 = Installing repository =
 To "embed" this repository to your project repository, type this command line with Git application installed on machine into your working directory as:
-<source lang="sh">
+<source lang="shell">
 git submodule add https://github.com/ryuuganime/dictionaries
 git submodule update --init --recursive
 </source>
 
-<ul><li>If you have GitKraken installed on your machine, this proccess will be much easier (because GUI, of course).</li>
-<li>For Windows user, ignore dollar sign.</li></ul>
+*If you have GitKraken installed on your machine, this proccess will be much easier (because GUI, of course).
 
 = Cloning, contributing, and issuing suggestion/problem =
 Please read [[contributing.wiki]] for more detailed information.
