@@ -1,11 +1,11 @@
 <h1>Ryuuganime Multilingual Dictionaries for Custom Spell Checker (RMDCSC)</h1>
 <blockquote>📚 A sets of dictionaries (word lists) from multiple languages for spell checker</blockquote>
 
-This repository allows user to add custom dictionaries of several language by only adding this repository to their project repository as submodules.
+This repository allows users to add custom dictionaries of several languages by only adding this repository to their project repository as submodules.
 
 __TOC__
 
-= Avaible languages =
+= Available languages =
 Currently, this repository only contains 4 languages and 1 custom wordlist of hobby-related topic. Most of dictionaries are provided from another repository(ies) by include those wordlist as submodules.
 <!--#region wikitable-->
 {| class="wikitable"
@@ -68,19 +68,19 @@ We using plain text format (<code>.txt</code> and <a href="#About_rydict"><code>
 <code>.rydict</code> (stand for <u>Ry</u>uuganime <u>Dict</u>ionary) is a self-curated wordlist collected from several sources and implement into one file by Ryuuganime itself using plain text format (<code>.txt</code>). Basically helps dictionary/spelling checker extension/app from overhaul by the resources, so it can reduce a lot of memory consumed by the app/extension.
 
 = Installing repository =
-To "embed" this repository to your project repository, type this command line with Git application installed on machine into your working directory as:
+To "embed" this repository to your project repository, type this command line with Git application installed on the machine into your working directory as:
 <source lang="shell">
 git submodule add https://github.com/ryuuganime/dictionaries
 git submodule update --init --recursive
 </source>
 
-*If you have GitKraken installed on your machine, this proccess will be much easier (because GUI, of course).
+*If you have GitKraken installed on your machine, this process will be much easier (because GUI, of course).
 
 = Cloning, contributing, and issuing suggestion/problem =
 Please read [[contributing.wiki]] for more detailed information.
 
 = Code of conduct =
-This project and everyone participating in it is governed by the [[CODE_OF_CONDUCT.wiki|Contributor Covenant Code of Conduct version 2.0]]. By participating, you are expected to uphold this code. For detailed information, read [[CODE_OF_CONDUCT.wiki]].
+This project and everyone participating in it are governed by the [[CODE_OF_CONDUCT.wiki|Contributor Covenant Code of Conduct version 2.0]]. By participating, you are expected to uphold this code. For detailed information, read [[CODE_OF_CONDUCT.wiki]].
 
 = License =
 This repository is under [[License|MIT License]]. (C) 2020, Ryuuganime.
