@@ -76,6 +76,9 @@ git submodule update --init --recursive
 
 *If you have GitKraken installed on your machine, this process will be much easier (because GUI, of course).
 
+== Using repository ==
+You can directly using the custom dictionary made by Ryuuganime team by using an .rydict file on [[.rcdl]] folder. Languages are named by ICU Locales format.
+
 = Cloning, contributing, and issuing suggestion/problem =
 Please read [[contributing.wiki]] for more detailed information.
 
